@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
+import matplotlib
 
 df = pd.read_csv("C:\Proyek\data\PRSA_DATA_CLEAN.csv")
 
