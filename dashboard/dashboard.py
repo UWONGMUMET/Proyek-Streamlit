@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-df = pd.read_csv("D:/Document/Firman Hasibuan/Bangkit/Streamlit/PRSA_DATA_CLEAN.csv")
+df = pd.read_csv("C:\Proyek\data\PRSA_DATA_CLEAN.csv")
 
 st.title('Air Quality Dashboard')
 st.write("""
