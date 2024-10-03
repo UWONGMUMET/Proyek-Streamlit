@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 import matplotlib
 
-df = pd.read_csv("C:\Proyek\data\PRSA_DATA_CLEAN.csv")
+df = pd.read_csv("./data/PRSA_DATA_CLEAN.csv")
 
 st.title('Air Quality Dashboard')
 st.write("""
